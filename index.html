@@ -1,0 +1,896 @@
+<!DOCTYPE html> 
+<html>
+<head>
+<meta charset="utf-8">
+<title>Aplic. Web de jQuery Mobile</title>
+<link href="jquery.mobile.theme-1.0.min.css" rel="stylesheet" type="text/css"/>
+<link href="jquery.mobile.structure-1.0.min.css" rel="stylesheet" type="text/css"/>
+<script src="jquery-1.6.4.min.js" type="text/javascript"></script>
+<script src="jquery.mobile-1.0.min.js" type="text/javascript"></script>
+</head> 
+<body> 
+
+<div data-role="page" id="page">
+	<div data-role="header">
+		<h1>CENTRO DE BACHILLERATO TECNOLOGICO INDUSTRIAL Y DE SERVICIOS NO.86</h1>
+	</div>
+	<div data-role="content">	
+		<ul data-role="listview">
+			<li><a href="#page1">CONTABILIDAD</a></li>
+            <li><a href="#page2">PRODUCCION INDUSTRIAL DE ALIMENTOS</a></li>
+			<li><a href="#page3">MECANICA INDUSTRIAL</a></li>
+            <li><a href="#page4">MECATRONICA</a></li>
+			<li><a href="#page5">PROGRAMACION</a></li>
+            <li><a href="#page6">LOGISTICA</a></li>
+			<li><a href="#page7">OFIMATICA</a></li>
+            <li><a href="#page8">AYUDA</a></li>
+		</ul>		
+	</div>
+	<div data-role="footer">
+		<h4>C.B.T.i.s.No.86</h4>
+	</div>
+</div>
+
+<div data-role="page" id="page1">
+	<div data-role="header">
+    <h1>CONTABILIDAD</h1>
+    </div>
+	<div data-role="content">
+	  <div align="center">
+	    <table width="15%" height="25" border="4">
+	      <tr>
+	        <th width="13%" scope="col">&nbsp;</th>
+	        <th width="20%" scope="col">&nbsp;</th>
+	        <th width="12%" scope="col">&nbsp;</th>
+	        <th width="16%" scope="col">&nbsp;</th>
+	        <th width="13%" scope="col">&nbsp;</th>
+	        <th width="13%" scope="col">&nbsp;</th>
+          </tr>
+	      <tr>
+	        <th scope="row"><strong>HORA</strong></th>
+	        <td scope="row"><strong>LUNES
+            </th>
+            </strong>
+            <td scope="row"><strong>MARTES
+            </th>
+            </strong>
+            <td scope="row"><strong>MIERCOLES
+            </th>
+            </strong>
+            <td scope="row"><strong>JUEVES
+            </th>
+            </strong>
+            <td scope="row"><strong>VIERNES</strong></tr>
+	      <tr>
+	        <th scope="row">7:00-8:00</th>
+	        <td>&nbsp;</td>
+	        <td>&nbsp;</td>
+	        <td rowspan="3">REGISTRA INFORMACION CONTABLE DE DIVERSAS ENTIDADES FABRILES 8 C.P.MA.ANTONIETA N.CORTES SANCHEZ</td>
+	        <td rowspan="2">REGISTRA INFORMACION CONTABLE DE DIVERSAS ENTIDADES FABRILES 8 C.P.MA.ANTONIETA N.CORTES SANCHEZ</td>
+	        <td>&nbsp;</td>
+          </tr>
+	      <tr>
+	        <th scope="row">8:00-9:00</th>
+	        <td>ECOLOGIA 8 MTRA.DULCE MARIA CASTELAN GOMEZ</td>
+	        <td rowspan="3">REGISTRA INFORMACION CONTABLE DE DIVERSAS ENTIDADES FABRILES 8 C.P.MA.ANTONIETA N.CORTES SANCHEZ</td>
+	        <td rowspan="3">REGISTRA INFORMACION CONTABLE DE DIVERSAS ENTIDADES FABRILES 8 C.P.MA.ANTONIETA N.CORTES SANCHEZ</td>
+          </tr>
+	      <tr>
+	        <th scope="row">9:00-10:00</th>
+	        <td rowspan="2">CALCULO DIFERENCIAL TA MAT MTRO.JORGE MORENO GUEVARA</td>
+	        <td>CALCULO DIFERENCIAL 8 MTRO.JORGE MORENO GUEVARA</td>
+          </tr>
+	      <tr>
+	        <th scope="row">10:00-11:00</th>
+	        <td rowspan="2">GENERA NOMINAS DE FORMA ELECTRONICA TCONTA C.P.NORA FRESBINDA LOPEZ DOMINGUEZ</td>
+	        <td>INGLES 4 8 LIC.MARIA DEL ROSARIO OLIVARES VARGAS</td>
+          </tr>
+	      <tr>
+	        <th scope="row">11:00-12:00</th>
+	        <td rowspan="2">GENERA NOMINAS DE FORMA ELECTRONICA TCONTA C.P.NORA FRESBINDA LOPEZ DOMINGUEZ</td>
+	        <td>FISICA 1 8 MTRA.ERIKA GPE.MORALES CASTRO</td>
+	        <td>ECOLOGIA 8 MTRA,DULCE MARIA CASTELAN GOMEZ</td>
+	        <td rowspan="2">ECOLOGIA 8 MTRA.DULCE MARIA CASTELAN GOMEZ</td>
+          </tr>
+	      <tr>
+	        <th scope="row">12:00-1:00</th>
+	        <td rowspan="2">INGLES 4 8 LIC.MARIA DEL ROSARIO OLIVARES VARGAS</td>
+	        <td rowspan="2">GENERA NOMINAS DE FORMA ELECTRONICA TCONTA C.P.NORA FRESBINDA LOPEZ DOMINGUEZ</td>
+	        <td>FISICA 1 8 MTRA.ERIKA GPE.MORALES CASTRO</td>
+          </tr>
+	      <tr>
+	        <th scope="row">1:00-2:00</th>
+	        <td>&nbsp;</td>
+	        <td>REGISTRA INFORMACION CONTABLE DE DIVERSAS ENTIDADES FABRILES 8 C.P.MA.ANTONIETA N.CORTES SANCHEZ</td>
+	        <td>GENERA NOMINAS DE FORMA ELECTRONICA 8 C.P.NORA FRESBINDA LOPEZ DOMINGUEZ</td>
+          </tr>
+	      <tr>
+	        <th scope="row">2:00-3:00</th>
+	        <td>&nbsp;</td>
+	        <td>&nbsp;</td>
+	        <td>CALCULO DIFERENCIAL TC MTRO.JORGE MORENO GUEVARA</td>
+	        <td>&nbsp;</td>
+	        <td>TUTORIA 4 8 C.P.NORA FRESBINDA LOPEZ DOMINGUEZ</td>
+          </tr>
+        </table>
+        <p><li><a href="#page">REGRESAR</a>
+      </div>
+	</div>
+	<div data-role="footer">
+	  <h4>C.B.T.i.s.No.86</h4>
+	</div>
+</div>
+    
+
+<div data-role="page" id="page2">
+	<div data-role="header">
+    <h1><strong>PRODUCCION INDUSTRIAL DE ALIMENTOS</strong></h1>
+    </div>
+	<div data-role="content">
+      <div align="center">
+        <table width="15" height="25" border="4">
+          <tr>
+      <td width="85">&nbsp;</td>
+      <td width="153">&nbsp;</td>
+      <td width="182">&nbsp;</td>
+      <td width="182">&nbsp;</td>
+      <td width="182">&nbsp;</td>
+      <td width="180">&nbsp;</td>
+      </tr>
+    <tr>
+      <td scope="row"><strong>HORA</th></strong>
+        <td scope="row"><strong>LUNES</th></strong>
+          <td scope="row"><strong>MARTES</th></strong>
+          <td scope="row"><strong>MIERCOLES</th></strong>
+          <td scope="row"><strong>JUEVES</th></strong>
+          <td scope="row"><strong>VIERNES</th></strong></tr>
+    <tr>
+      <td scope="row"><strong>7:00-8:00</strong></td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td rowspan="2"><strong>FISICA 1 LF ERIKA GPE.MORALES CASTRO</strong></td>
+      </tr>
+    <tr>
+      <td scope="row"><strong>8:00-9:00</th></strong>
+        <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td><strong>ECOLOGIA 9 MTRA.DULCE MARIA CASTELAN GOMEZ</strong></td>
+      <td>&nbsp;</td>
+      </tr>
+    <tr>
+      <td scope="row"><strong>9:00-10:00</th></strong>	      
+        <td>&nbsp;</td>
+      <td rowspan="2"><strong>CALCULO DIFERENCIAL TA MAT MTRO.JORGE MORENO GUEVARA</strong></td>
+      <td><strong>TUTORIA 4 9 LIC. GUSTAVO A.GUTIERREZ BUSTOS</strong></td>
+      <td><strong>FISICA 1 9 ERIKA GPE.MORALES CASTRO</strong></td>
+      <td><strong>ECOLOGIA 9 MTRA.DULCE MARIA CASTELAN GOMEZ</strong></td>
+      </tr>
+    <tr>
+      <td scope="row"><strong>10:00-11:00</th></strong>	      
+        <td rowspan="2"><strong>REALIZA ANALISIS FISICOS, QUIMICOS Y MICROBIOLOGICOS PERTINENTES 9 ING.SANTOS ZATARAIN LOPEZ</strong></td>
+      <td><strong>FISICA 1 9 MTRA.ERIKA GPE.MORALES CASTRO</strong></td>
+      <td rowspan="4"><strong>REALIZA LOS PROCESOS DE TRANSFORMACION DE DIFERENTES PRODUCTOS CARNICOS TA1 LIC.DENISSE SALAS GUZMAN</strong></td>
+      <td><strong>CALCULO DIFERENCIAL 9 MTRO.JORGE MORENO GUEVARA</strong></td>
+      </tr>
+    <tr>
+      <td scope="row"><strong>11:00-12:00</strong>
+        </th>
+        <td rowspan="3"><strong>REALIZA LOS PROCESOS DE TRANSFORMACION DE DIFERENTES PRODUCTOS CARNICOS TA1 LIC.DENISSE SALAS GUZMAN</strong></td>
+      <td rowspan="4"><strong>REALIZA LOS PROCESOS DE TRANSFORMACION DE DIFERENTES PRODUCTOS CARNICOS TA1 LIC.DENISSE SALAS GUZMAN</strong></td>
+      <td rowspan="2"><strong>REALIZA ANALISIS FISICOS, QUIMICOS Y MICROBIOLOGICOS PERTINENTES LA ING.SANTOS ZATARAIN LOPEZ</strong></td>
+      </tr>
+    <tr>
+      <td scope="row"><strong>12:00-1:00</strong><td rowspan="2"><strong>ECOLOGIA 9 MTRA.DULCE MARIA CASTELAN GOMEZ</strong></td>
+      </tr>
+    <tr>
+      <td scope="row"><strong>1:00-2:00</th></strong>
+        <td rowspan="2"><strong>INGLES 4 19 LIC.MARIA DEL ROSARIO OLIVARES VARGAS</strong></td>
+      </tr>
+    <tr>
+      <td scope="row"><strong>2:00-3:00</th></strong>	      
+        <td><strong>INGLES 4 9 LIC.MARIA DEL ROSARIO OLIVARES VARGAS</strong></td>
+      <td rowspan="2"><strong>REALIZA ANALISIS FISICOS, QUIMICOS Y MICROBIOLOGICOS PERTINENTES LA ING.SANTOS ZATARAIN LOPEZ</strong></td>
+      <td><strong>CALCULO DIFERENCIAL TA MAT MTRO.JORGE MORENO GUEVARA</strong></td>
+      </tr>
+    <tr>
+      <td scope="row"><strong>3:00-4:00</th></strong>
+        <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      </tr>
+</table>
+<p><li><a href="#page">REGRESAR</a>
+      </div>
+	</div>
+	<div data-role="footer">
+		<h4><strong>C.B.T.i.s.No.86</strong></h4>
+	</div>
+</div>
+
+<div data-role="page" id="page3">
+	<div data-role="header">
+		<h1>MECANICA INDUSTRIAL</h1>
+	</div>
+	<div data-role="content">
+	  <div align="center">
+	    <table width="15%" height="25" border="4">
+	      <tr>
+	        <th width="9%" scope="col">&nbsp;</th>
+	        <th width="15%" scope="col">&nbsp;</th>
+	        <th width="19%" scope="col">&nbsp;</th>
+	        <th width="20%" scope="col">&nbsp;</th>
+	        <th width="20%" scope="col">&nbsp;</th>
+	        <th width="17%" scope="col">&nbsp;</th>
+          </tr>
+	      <tr>
+	        <th scope="row"><strong>HORA</strong></th>
+	        <td scope="row"><strong>LUNES
+            </th>
+            </strong>
+            <td scope="row"><strong>MARTES
+            </th>
+            </strong>
+            <td scope="row"><strong>MIERCOLES
+            </th>
+            </strong>
+            <td scope="row"><strong>JUEVES
+            </th>
+            </strong>
+            <td scope="row"><strong>VIERNES
+            </th>
+          </strong></tr>
+	      <tr>
+	        <th scope="row"><strong>7:00-8:00</strong></th>
+	        <td>&nbsp;</td>
+	        <td rowspan="4"><strong>APLICA PROCESOS DE FRESADO TM TEC.EUGENIO GONZALEZ RAMOS</strong></td>
+	        <td rowspan="4"><strong>APLICA PROCESOS DE FRESADO TM TEC.EUGENIO GONZALEZ RAMOS</strong></td>
+	        <td rowspan="2"><strong>CALCULO DIFERENCIAL 10 MTRO.JORGE MORENO GUEVARA</strong></td>
+	        <td rowspan="3"><strong>APLICA PROCESOS DE FRESADO TM TEC.EUGENIO GONZALEZ RAMOS</strong></td>
+          </tr>
+	      <tr>
+	        <th scope="row"><strong>8:00-9:00</strong></th>
+	        <td>&nbsp;</td>
+          </tr>
+	      <tr>
+	        <th scope="row"><strong>9:00-10:00</strong></th>
+	        <td rowspan="2"><strong>APLICA PROCESOS DE RECTIFICADO Y CEPILLADO TM TEC.EUGENIO GONZALEZ RAMOS</strong></td>
+	        <td><strong>ECOLOGIA 10 MTRA.DULCE MARIA CASTELAN GOMEZ</strong></td>
+          </tr>
+	      <tr>
+	        <th scope="row"><strong>10:00-11:00</strong></th>
+	        <td rowspan="2"><strong>FISICA 1 LF  MTRO.GUSTAVO REYES BANDA</strong></td>
+	        <td><strong>ECOLOGIA 10 MTRA.DULCE MARIA CASTELAN GOMEZ</strong></td>
+          </tr>
+	      <tr>
+	        <th scope="row"><strong>11:00-12:00</strong></th>
+	        <td rowspan="2"><strong>INGLES 4 10 LIC.MARIA .DEL ROSARIO OLIVARES VARGAS</strong></td>
+	        <td><strong>CALCULO DIFERENCIAL 10 MTRO.JORGE MORENO GUEVARA</strong></td>
+	        <td rowspan="2"><strong>APLICA PROCESOS DE RECTIFICADO Y CEPILLADO TM TEC.EUGENIO GONZALEZ RAMOS</strong></td>
+	        <td>&nbsp;</td>
+          </tr>
+	      <tr>
+	        <th scope="row"><strong>12:00-1:00</strong></th>
+	        <td rowspan="2"><strong>ECOLOGIA 10 MTRA.DULCE MARIA CASTELAN GOMEZ</strong></td>
+	        <td><strong>INGLES 4 10 LIC.MARIA DEL ROSARIO OLIVARES VARGAS</strong></td>
+	        <td>&nbsp;</td>
+          </tr>
+	      <tr>
+	        <th scope="row"><strong>1:00-2:00</strong></th>
+	        <td><strong>CALCULO DIFERENCIAL 10 MTRO.JORGE MORENO GUEVARA</strong></td>
+	        <td><strong>FISICA 1 16 MTRO.GUSTAVO REYES BANDA</strong></td>
+	        <td rowspan="2"><strong>APLICA PROCESOS DE RECTIFICADO Y CEPILLADO TM TEC.EUGENIO GONZALEZ RAMOS</strong></td>
+	        <td>&nbsp;</td>
+          </tr>
+	      <tr>
+	        <th scope="row"><strong>2:00-3:00</strong></th>
+	        <td>&nbsp;</td>
+	        <td><strong>FISICA 1 10 MTRO.GUSTAVO REYES BANDA</strong></td>
+	        <td><strong>TUTORIA 4 16 ING.HUGO PORTAL AGUILAR</strong></td>
+	        <td>&nbsp;</td>
+          </tr>
+        </table>
+        <p><li><a href="#page">REGRESAR</a>
+      </div>
+	</div>
+	<div data-role="footer">
+		<h4>C.B.T.i.s.No.86</h4>
+	</div>
+</div>
+
+
+<div data-role="page" id="page4">
+	<div data-role="header">
+		<h1>MECATRONICA</h1>
+	</div>
+	<div data-role="content">
+	  <div align="center">
+	    <table width="15%" height="25" border="4">
+	      <tr>
+	        <th width="13%" scope="col">&nbsp;</th>
+	        <th width="27%" scope="col">&nbsp;</th>
+	        <th width="27%" scope="col">&nbsp;</th>
+	        <th width="13%" scope="col">&nbsp;</th>
+	        <th width="9%" scope="col">&nbsp;</th>
+	        <th width="10%" scope="col">&nbsp;</th>
+          </tr>
+	      <tr>
+	        <th scope="row"><strong>HORA</strong></th>
+	        <td><strong>LUNES</strong></td>
+	        <td><strong>MARTES</strong></td>
+	        <td><strong>MIERCOLES</strong></td>
+	        <td><strong>JUEVES</strong></td>
+	        <td><strong>VIERNES</strong></td>
+          </tr>
+	      <tr>
+	        <th scope="row"><strong>7:00-8:00</strong></th>
+	        <td><p><strong>CALCULO DIFERENCIAL 11</strong></p>
+            <p><strong> MTRO.JORGE MORENO GUEVARA</strong></p></td>
+	        <td>&nbsp;</td>
+	        <td><p><strong>CALCULO DIFERENCIAL </strong></p>
+            <p><strong>11 MTRO.JORGE MORENO GUEVARA</strong></p></td>
+	        <td>&nbsp;</td>
+	        <td rowspan="2"><p><strong>PROGRAMA CONTROLADORES LOGICOS PROGRAMABLES 11 </strong></p>
+            <p><strong>ING.ROSALES ALAN</strong></p></td>
+          </tr>
+	      <tr>
+	        <th scope="row"><strong>8:00-9:00</strong></th>
+	        <td><p><strong>TUTORIA 4</strong></p>
+            <p><strong> 11 ING.HUGO PORTAL AGUILAR</strong></p></td>
+	        <td rowspan="2"><p><strong>UTILIZA Y PROGRAMA MICROCOMPUTADORES 11 </strong></p>
+            <p><strong>ING.ALBERTO CARRIILLO ALARCON</strong></p></td>
+	        <td rowspan="2"><p><strong>PROGRAMA CONTROLADORES LOGICOS PROGRAMABLES 11</strong></p>
+            <p><strong> ING.ROSALES ALAN</strong></p></td>
+	        <td rowspan="2"><p><strong>UTILIZA Y PROGRAMA MICROCOMPUTADORES 11 </strong></p>
+            <p><strong>ING.ALBERTO CARRIILLO ALARCON</strong></p></td>
+          </tr>
+	      <tr>
+	        <th scope="row"><strong>9:00-10:00</strong></th>
+	        <td><strong>ECOLOGIA 11 ING.HUGO PORTAL AGUILAR</strong></td>
+	        <td rowspan="2"><p><strong>ECOLOGIA </strong></p>
+            <p><strong>11 HUGO PORTAL AGUILAR</strong></p></td>
+          </tr>
+	      <tr>
+	        <th scope="row"><strong>10:00-11:00</strong></th>
+	        <td rowspan="2"><p><strong>DIAGNOSTICA EL ESTADO DE LOS COMPONENTES DE FUERZA Y ACTUADORES EN SISTEMAS MECATRONICOS</strong></p>
+            <p><strong> 11 ING.CABRERA MERIDA MELESIO</strong></p></td>
+	        <td rowspan="2"><p><strong>INGLES 4 </strong></p>
+            <p><strong>11 LIC.MARIA DEL ROSARIO OLIVARES VARGAS</strong></p></td>
+	        <td rowspan="2"><p><strong>FISICA 1 </strong></p>
+            <p><strong>11 LIC.JOEL CRUZ HERNANDEZ</strong></p></td>
+	        <td><strong>ECOLOGIA 11 HUGO PORTAL AGUILAR</strong></td>
+          </tr>
+	      <tr>
+	        <th scope="row"><strong>11:00-12:00</strong></th>
+	        <td rowspan="2"><p><strong>CALCULO DIFERENCIAL 11 </strong></p>
+            <p><strong>MTRO.JORGE MORENO GUEVARA</strong></p></td>
+	        <td><p><strong>FISICA 1</strong></p>
+            <p><strong> 11 LIC.JOEL CRUZ HERNANDEZ</strong></p></td>
+          </tr>
+	      <tr>
+	        <th scope="row"><strong>12:00-1:00</strong></th>
+	        <td rowspan="3"><p><strong>UTILIZA Y PROGRAMA MICROCOMPUTADORES 11</strong></p>
+            <p><strong>ING.ALBERTO CARRILLO ALARCON</strong></p></td>
+	        <td rowspan="2"><p><strong>DIAGNOSTICA EL ESTADO DE LOS COMPONENTES DE FUERZA Y ACTUADORES EN SISTEMAS MECATRONICOS </strong></p>
+            <p><strong>11 ING.CABRERA MERIDA MELESIO</strong></p></td>
+	        <td>&nbsp;</td>
+	        <td><p><strong>FISICA 1 </strong></p>
+            <p><strong>11 LIC.JOEL CRUZ HERNANDEZ</strong></p></td>
+          </tr>
+	      <tr>
+	        <th scope="row"><strong>1:00-2:00</strong></th>
+	        <td>&nbsp;</td>
+	        <td><p><strong>INGLES 4 </strong></p>
+            <p><strong>11 LIC.MARIA DEL ROSARIO OLIVARES VARGAS</strong></p></td>
+	        <td rowspan="2"><p><strong>PROGRAMA CONTROLADORES LOGICOS PROGRAMABLES 11 </strong></p>
+            <p><strong>ING.ROSALES ALAN</strong></p></td>
+          </tr>
+	      <tr>
+	        <th scope="row"><strong>2:00-3:00</strong></th>
+	        <td>&nbsp;</td>
+	        <td>&nbsp;</td>
+	        <td>&nbsp;</td>
+          </tr>
+        </table>
+        <p><li><a href="#page">REGRESAR</a>
+      </div>
+	</div>
+	<div data-role="footer">
+		<h4>C.B.T.i.s.No.86</h4>
+	</div>
+</div>
+
+
+<div data-role="page" id="page5">
+	<div data-role="header">
+		<h1>PROGRAMACION</h1>
+	</div>
+	<div data-role="content">
+            <div align="center">
+              <table width="15%" height="25" border="4">
+                <tr>
+                  <th scope="col">&nbsp;</th>
+                  <th scope="col">&nbsp;</th>
+                  <th scope="col">&nbsp;</th>
+                  <th scope="col">&nbsp;</th>
+                  <th scope="col">&nbsp;</th>
+                  <th scope="col">&nbsp;</th>
+                </tr>
+                <tr>
+                  <th scope="row">HORA</th>
+                  <th scope="row">LUNES</th>
+                  <th scope="row">MARTES</th>
+                  <th scope="row">MIERCOLES</th>
+                  <th scope="row">JUEVES</th>
+                  <th scope="row">VIERNES</th>
+                </tr>
+                <tr>
+                  <th scope="row">7:00-8:00</th>
+                  <td>&nbsp;</td>
+                  <td rowspan="3"><p><strong>DESARROLLA APLICACIONES MOVILES </strong></p>
+                  <p><strong>S1 MTRO.DAVID NIETO LOPEZ</strong></p></td>
+                  <td rowspan="2"><p><strong>DESARROLLA APLICACIONES MOVILES </strong></p>
+                  <p><strong>S1 MTRO.DAVID NIETO LOPEZ</strong></p></td>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                </tr>
+                <tr>
+                  <th scope="row">8:00-9:00</th>
+                  <td rowspan="3"><p><strong>DESARROLLA APLICACIONES MOVILES </strong></p>
+                  <p><strong>S1 MTRO.DAVID NIETO LOPEZ</strong></p></td>
+                  <td>&nbsp;</td>
+                  <td><p><strong>ECOLOGIA </strong></p>
+                  <p><strong>12 MTRA.DULCE MARIA CASTELAN GOMEZ</strong></p></td>
+                </tr>
+                <tr>
+                  <th scope="row">9:00-10:00</th>
+                  <td><p><strong>ECOLOGIA </strong></p>
+                  <p><strong>12 MTRA.DULCE MARIA CASTELAN GOMEZ</strong></p></td>
+                  <td rowspan="3"><p><strong>DESARROLLA APLICACIONES WEB </strong></p>
+                  <p><strong>S1 ING.OMAR JUAREZ CARDENAS</strong></p></td>
+                  <td><p><strong>DESARROLLA APLICACIONES WEB </strong></p>
+                  <p><strong>12  ING.OMAR JUAREZ CARDENAS</strong></p></td>
+                </tr>
+                <tr>
+                  <th scope="row">10:00-11:00</th>
+                  <td rowspan="2"><p><strong>DESARROLLA APLICACIONES WEB </strong></p>
+                  <p><strong>S</strong><strong>1 ING.OMAR JUAREZ CARDENAS</strong></p></td>
+                  <td><p><strong>DESARROLLA APLICACIONES WEB </strong></p>
+                  <p><strong>S1 ING.OMAR JUAREZ CARDENAS</strong></p></td>
+                  <td><p><strong>INGLES 4 </strong></p>
+                  <p><strong>12 LIC.MARIA DEL ROSARIO OLIVARES VARGAS</strong></p></td>
+                </tr>
+                <tr>
+                  <th scope="row">11:00-12:00</th>
+                  <td><p><strong>FISICA 1</strong></p>
+                  <p><strong> 22 LIC.JOEL CRUZ HERNANDEZ</strong></p></td>
+                  <td><strong>CALCULO DIFERENCIAL 12 MTRO.JORGE MORENO GUEVARA</strong></td>
+                  <td rowspan="2"><strong>CALCULO DIFERENCIAL 12  MTRO.JORGE MORENO GUEVARA</strong></td>
+                </tr>
+                <tr>
+                  <th scope="row">12:00-1:00</th>
+                  <td><p><strong>DESARROLLA APLICACIONES WEB </strong></p>
+                  <p><strong>22 ING.OMAR JUAREZ CARDENAS</strong></p></td>
+                  <td><p><strong>DESARROLLA APLICACIONES WEB </strong></p>
+                  <p><strong>23 ING.OMAR JUAREZ CARDENAS</strong></p></td>
+                  <td rowspan="2"><p><strong>INGLES 4 </strong></p>
+                  <p><strong>12 LIC.MARIA DEL ROSARIO OLIVARES VARGAS</strong></p></td>
+                  <td rowspan="2"><p><strong>ECOLOGIA </strong></p>
+                  <p><strong>TDD MTRA.DULCE MARIA CASTELAN GOMEZ</strong></p></td>
+                </tr>
+                <tr>
+                  <th scope="row">1:00-2:00</th>
+                  <td>&nbsp;</td>
+                  <td><strong>CALCULO DIFERENCIAL 23 MTRO.JORGE MORENO GUEVARA</strong></td>
+                  <td>&nbsp;</td>
+                </tr>
+                <tr>
+                  <th scope="row">2:00-3:00</th>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td><p><strong>FISICA 1 </strong></p>
+                  <p><strong>12 LIC.JOEL CRUZ HERNANDEZ</strong></p></td>
+                  <td><p><strong>TUTORIA 4 </strong></p>
+                  <p><strong>23 ING.HUGO PORTAL AGUILAR</strong></p></td>
+                  <td>&nbsp;</td>
+                </tr>
+                <tr>
+                  <th scope="row">3:00-4:00</th>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td rowspan="2"><p><strong>FISICA 1 </strong></p>
+                  <p><strong>LF LIC.JOEL CRUZ HERNANDEZ</strong></p></td>
+                  <td>&nbsp;</td>
+                </tr>
+                <tr>
+                  <th scope="row">4:00-5:00</th>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                </tr>
+  </table>
+  <p><li><a href="#page">REGRESAR</a>
+      </div>
+    </div>
+	<div data-role="footer">
+		<h4>C.B.T.i.s.No.86</h4>
+	</div>
+</div>
+
+
+
+<div data-role="page" id="page6">
+	<div data-role="header">
+		<h1>LOGISTICA</h1>
+	</div>
+	<div data-role="content">
+	    <div align="center">
+	      <table width="15" height="25" border="4">
+	        <tr>
+	          <td width="47">&nbsp;</td>
+	          <td width="119">&nbsp;</td>
+	          <td width="133">&nbsp;</td>
+	          <td width="150">&nbsp;</td>
+	          <td width="150">&nbsp;</td>
+	          <td width="150">&nbsp;</td>
+            </tr>
+	        <tr>
+	          <td><strong>HORA</strong></td>
+	          <td><strong>LUNES</strong></td>
+	          <td><strong>MARTES</strong></td>
+	          <td><strong>MIERCOLES</strong></td>
+	          <td><strong>JUEVES</strong></td>
+	          <td><strong>VIERNES</strong></td>
+            </tr>
+	        <tr>
+	          <td><strong>7:00-8:00</strong></td>
+	          <td><p>&nbsp;</p></td>
+	          <td>&nbsp;</td>
+	          <td><p>&nbsp;</p></td>
+	          <td><p><strong>CALCULO DIFERENCIAL</strong></p>
+              <p><strong>13 MEM.JULIO ALBERTO GONZALEZ NEGRETE</strong></p></td>
+	          <td rowspan="2"><p><strong>APOYA LA COORDINACION DE LA OPERACION DEL TRANSPORTE ENTRE ORIGEN Y DESTINO</strong></p>
+              <p><strong>13 LIC.GUSTAVO A.GUTIERREZ BUSTOS</strong></p></td>
+            </tr>
+	        <tr>
+	          <td><strong>8;:00-9:00</strong></td>
+	          <td><p><strong>INGLES 4</strong></p>
+              <p><strong>13 LIC.ARTURO EDUARDO RAMIREZ GARCIA</strong></p></td>
+	          <td><p><strong>ECOLOGIA</strong></p>
+              <p><strong>13 MTRA.DULCE MARIA CASTELAN GOMEZ</strong></p></td>
+	          <td rowspan="2"><p><strong>INGLES 4</strong></p>
+              <p><strong>13 LIC.ARTURO EDUARDO RAMIREZ GARCIA</strong></p></td>
+	          <td rowspan="2"><p><strong>APOYA LA COORDINACION DE LA OPERACION DEL TRANSPORTE ENTRE ORIGEN Y DESTINO</strong></p>
+              <p><strong>13 LIC.GUSTAVO A.GUTIERREZ BUSTOS</strong></p></td>
+            </tr>
+	        <tr>
+	          <td><strong>9:00-10:00</strong></td>
+	          <td rowspan="2"><p><strong>ECOLOGIA</strong></p>
+              <p><strong>13 MTRA.DULCE MARIA CASTELAN GOMEZ</strong></p></td>
+	          <td rowspan="2"><p><strong>APOYA LA COORDINACION DE LA OPERACION DEL TRANSPORTE ENTRE ORIGEN Y DESTINO</strong></p>
+              <p><strong>13 LIC.GUSTAVO A.GUTIERREZ BUSTOS</strong></p></td>
+	          <td><p><strong>FISICA 1</strong></p>
+              <p><strong>13 MTRA.ERIKA GPE.MORALES CASTRO</strong></p></td>
+            </tr>
+	        <tr>
+	          <td><strong>10:00-11:00</strong></td>
+	          <td><p><strong>CALCULO DIFERENCIAL</strong></p>
+              <p><strong>13 MEM.JULIO ALBERTO GONZALEZ NEGRETE</strong></p></td>
+	          <td rowspan="3"><p><strong>INTEGRA LA SECUENCIA DE DOCUMENTACION PARA EL TRANSPORTE DE MERCANCIAS</strong></p>
+              <p><strong>22  LIC.ROXANA MA.GOMEZ TREJO</strong></p></td>
+	          <td rowspan="3"><p><strong>INTEGRA LA SECUENCIA DE DOCUMENTACION PARA EL TRANSPORTE DE MERCANCIAS</strong></p>
+              <p><strong>13   LIC.ROXANA MA.GOMEZ TREJO</strong></p></td>
+            </tr>
+	        <tr>
+	          <td><strong>11:00-12:00</strong></td>
+	          <td rowspan="2"><p><strong>CALCULO DIFERENCIAL</strong></p>
+              <p><strong>TA MAT  MEM.JULIO ALBERTO GONZALEZ NEGRETE</strong></p></td>
+	          <td rowspan="2"><p><strong>APOYA LA COORDINACION DE LA OPERACION DEL TRANSPORTE ENTRE ORIGEN Y DESTINO</strong></p>
+              <p><strong>13 LIC.GUSTAVO A.GUTIERREZ BUSTOS</strong></p></td>
+	          <td rowspan="3"><p><strong>INTEGRA LA SECUENCIA DE DOCUMENTACION PARA EL TRANSPORTE DE MERCANCIAS</strong></p>
+              <p><strong>13 LIC.ROXANA MA.GOMEZ TREJO</strong></p></td>
+            </tr>
+	        <tr>
+	          <td><strong>12:00-1:00</strong></td>
+            </tr>
+	        <tr>
+	          <td><strong>1:00-2:00</strong></td>
+	          <td><p><strong>FISICA 1</strong></p>
+              <p><strong>13 MTRA.ERIKA GPE.MORALES CASTRO</strong></p></td>
+	          <td>&nbsp;</td>
+	          <td rowspan="2"><p><strong>FISICA 1</strong></p>
+              <p><strong>LF  MTRA.ERIKA GPE.MORALES CASTRO</strong></p></td>
+	          <td><p>&nbsp;</p></td>
+            </tr>
+	        <tr>
+	          <td><strong>2:00-3:00</strong></td>
+	          <td>&nbsp;</td>
+	          <td><p>&nbsp;</p></td>
+	          <td><p><strong>ECOLOGIA</strong></p>
+              <p><strong>13 MTRA.DULCE MARIA CASTELAN GOMEZ</strong></p></td>
+	          <td>&nbsp;</td>
+            </tr>
+	        </table>
+            <p><li><a href="#page">REGRESAR</a>
+      </div>
+    </div>
+	<div data-role="footer">
+		<h4>C.B.T.i.s.No.86</h4>
+	</div>
+</div>
+
+
+<div data-role="page" id="page7">
+	<div data-role="header">
+		<h1>OFIMATICA</h1>
+	</div>
+	<div data-role="content">
+    <div align="center">
+	    <table width="15" height="25" border="4">
+	      <tr>
+	        <td>&nbsp;</td>
+	        <td>&nbsp;</td>
+	        <td>&nbsp;</td>
+	        <td>&nbsp;</td>
+	        <td>&nbsp;</td>
+	        <td>&nbsp;</td>
+          </tr>
+	      <tr>
+	        <td><strong>HORA</strong></td>
+	        <td><strong>LUNES</strong></td>
+	        <td><strong>MARTES</strong></td>
+	        <td><strong>MIERCOLES</strong></td>
+	        <td><strong>JUEVES</strong></td>
+	        <td><strong>VIERNES</strong></td>
+          </tr>
+	      <tr>
+	        <td><strong>7:00-8:00</strong></td>
+	        <td><p><strong>TUTORIA 4</strong></p>
+            <p><strong>14 LIC.GUSTAVO A.GUTIERREZ BUSTOS</strong></p></td>
+	        <td>&nbsp;</td>
+	        <td><p>&nbsp;</p></td>
+	        <td><p>&nbsp;</p></td>
+	        <td>&nbsp;</td>
+          </tr>
+	      <tr>
+	        <td><strong>8;:00-9:00</strong></td>
+	        <td rowspan="2"><p><strong>GESTIONA INFORMACION MEDIANTE EL USO DE SOFTWARE EN LINEA</strong></p>
+            <p><strong>S2 LIC.ABDON CANALES CASTILLO</strong></p></td>
+	        <td><p><strong>FISICA 1</strong></p>
+            <p><strong>14 MTRA.ERIKA GPE.MORALES CASTRO</strong></p></td>
+	        <td rowspan="2"><p><strong>FISICA 1</strong></p>
+            <p><strong>LF MTRA.ERIKA GPE.MORALES CASTRO</strong></p></td>
+	        <td rowspan="2"><p><strong>CALCULO DIFERENCIAL</strong></p>
+            <p><strong>TA MAT MEM.JULIO ALBERTO GONZALEZ NEGRTE</strong></p></td>
+	        <td rowspan="2"><strong>GESTIONA RECURSOS MEDIANTE EL USO DE REDES DE COMPUTADORAS
+            </p>
+            </strong>
+            <p><strong>S2 LIC.ABDON CANALES CASTILLO</strong></p></td>
+           </tr>
+	      <tr>
+	        <td><strong>9:00-10:00</strong></td>
+	        <td rowspan="2"><p><strong>ECOLOGIA</strong></p>
+	        <p><strong>14 MTRA.DULCE MARIA CASTELAN GOMEZ</strong></p></td>
+          </tr>
+	      <tr>
+	        <td><strong>10:00-11:00</strong></td>
+	        <td><p><strong>CALCULO DIFERENCIAL</strong></p>
+            <p><strong>14 MEM.JULIO ALBERTO GONZALEZ NEGRETE</strong></p></td>
+	        <td><p><strong>ECOLOGIA</strong></p>
+            <p><strong>23 MTRA.DULCE MARIA CASTELAN GOMEZ</strong></p></td>
+	        <td rowspan="2"><strong>GESTIONA INFORMACION MEDIANTE EL USO DE SOFTWARE EN LINEA
+            </p>
+            </strong>
+            <p><strong>S2 LIC.ABDON CANALES CASTILLO</strong></p></td>
+	        <td rowspan="2"><strong>GESTIONA INFORMACION MEDIANTE EL USO DE SOFTWARE EN LINEA
+            </p>
+            </strong>
+            <p><strong>S1 LIC.ABDON CANALES CASTILLO</strong></p></td>
+          </tr>
+	      <tr>
+	        <td><strong>11:00-12:00</strong></td>
+	        <td rowspan="2"><p><strong>GESTIONA RECURSOS MEDIANTE EL USO DE COMPUTADORAS</strong></p>
+	        <p><strong>S1 LIC.ABDON CANALES CASTILLO</strong></p>
+            <p>&nbsp;</p></td>
+	        <td><p><strong>GESTIONA RECURSOS MEDIANTE EL USO DE REDES DE COMPUTADORAS</strong></p>
+            <p><strong>S1 LIC.ABDON CANALES CASTILLO</strong></p></td>
+	        <td><p><strong>GESTIONA INFORMACION MEDIANTE EL USO DE SOFTWARE EN LINEA</strong></p>
+            <p><strong>23 LIC.ABDON CANALES CASTILLO</strong></p></td>
+          </tr>
+	      <tr>
+	        <td><strong>12:00-1:00</strong></td>
+	        <td><p><strong>GESTIONA RECURSOS MEDIANTE EL USO DE REDES DE COMPUTADORAS</strong></p>
+            <p><strong>14 LIC. ABDON CANALES CASTILLO</strong></p></td>
+	        <td><p><strong>GESTIONA INFORMACION MEDIANTE EL USO DE SOFTWARE EN LINEA</strong></p>
+            <p><strong>S2  LIC.ABDON CANALES CASTILLO</strong></p></td>
+	        <td rowspan="2"><strong>GESTIONA RECURSOS MEDIANTE EL USO DE REDES DE COMPUTADORAS
+            </p>
+            </strong>
+            <p><strong>S1 LIC.ABDON CANALES CASTILLO</strong></p></td>
+	        <td><p><strong>FISICA 1</strong></p>
+            <p><strong>14 MTRA.ERIKA GPE.MORALES CASTRO</strong></p></td>
+          </tr>
+	      <tr>
+	        <td><strong>1:00-2:00</strong></td>
+	        <td rowspan="2"><strong>
+            </p>
+            INGLES 4</p>
+	        </strong>
+	          <p><strong>14 LIC.DORA LUZ RAMIREZ VELAZQUEZ</strong></p>
+            <p>&nbsp;</p></td>
+	        <td>&nbsp;</td>
+	        <td><p><strong>GESTIONA INFORMACION MEDIANTE EL USO DE SOFTWARE EN LINEA</strong></p>
+            <p><strong>S1 LIC.ABDON CANALES CASTILLO</strong></p></td>
+	        <td><p><strong>INGLES 4</strong></p>
+            <p><strong>14 LIC.DORA LUZ RAMIREZ VELAZQUEZ</strong></p></td>
+          </tr>
+	      <tr>
+	        <td><strong>2:00-3:00</strong></td>
+	        <td>&nbsp;</td>
+	        <td><p><strong>CALCULO DIFERENCIAL</strong></p>
+            <p><strong>23 MEM.JULIO ALBERTO GONZALEZ NEGRETE</strong></p></td>
+	        <td><p>&nbsp;</p></td>
+	        <td><p><strong>ECOLOGIA</strong></p>
+            <p><strong>14 MTRA.DULCE MARIA CASTELAN GOMEZ</strong></p></td>
+          </tr>
+        </table>
+        <p><li><a href="#page">REGRESAR</a>
+	  </div>
+  </div>
+	<div data-role="footer">
+		<h4>C.B.T.i.s.No.86</h4>
+	</div>
+</div>
+
+
+<div data-role="page" id="page8">
+	<div data-role="header">
+		<h1>AYUDA</h1>
+	</div>
+	<div data-role="content">
+    <center>Manual técnico</center> 
+                                                                             
+<center>1ª requerimientos mínimos</center>
+	<p><br>Sistemas  operativo  : Android ,Windows</br></p>
+	<center>2°objetivos</center>
+	<p><br>Brindar la información necesaria para poder realizar la instalación y configuración de la aplicación.</br></p>
+<p><br>Específicos</br></p>
+	<p><br>Definir claramente el procedimiento de instalación del aplicativo. </br></p>
+	<p><br>Detallar y especificar  los requerimientos necesarios para la instalación de la aplicación </br></p>
+	<p><br>Describir las herramientas utilizadas para el diseño y desarrollo de la aplicación</br></p>
+
+<center>3°INTRODUCCION</center>
+<p><br>
+Este manual describe los pasos necesarios para facilitar  le un mejor servicio más cómodo a la hora de localizar aun docente por alguna duda o necesidad   de aclaración respecto a la  calificación de su hijo o hija.  Es necesario contar con una red wifi o datos  móviles para la descarga del código QR 
+Es importante tener en cuenta que en el presente manual se hace mención a las especificaciones de operador ya sea  Android o  Windows  para la correcta instalación de la aplicación.</br></p>
+
+<center>4°herramientas utilizadas para el desarrollo</center>
+<center>Dreamweaver</center>
+<p><br>
+Su estructura está hecha para que el desarrollo del código sea más fácil, se puede utilizar y al mismo tiempo podemos examinar en una ventana adjunta cómo va el desarrollo de nuestra aplicación de modo que no haya tantas fallas y si las hay sean mínimas.</br></p>
+
+<p><br>Crea y agrupa aplicaciones para Android, iOS.</br></p>
+ <p><br> Agiliza la intersección de medios, una interfaz más limpia con mejoras significativas en proyectos para móviles
+Compatibilidad con jQuery. Crea apps nativas para dispositivos para las plataformas: iOS y android 
+Inserción de elementos HTML 5 más rápidas mediante el panel de insertar que ha sido reinventado</br></p>
+  <p><br>Conecta y edita sitios dinámicos propios.</br></p>  
+
+<center>Github</center>
+
+<p><br>
+Es una plataforma de desarrollo colaborativo de software para alojar proyectos utilizados el sistema de control de versión Git. El código se almacena de forma gratuita. Aunque el código también se puede hacer de forma privada creando una cuenta.
+Git hub es una pieza importante a la hora de publicar tu aplicación porque te manda directamente a la página generadora del código que necesitas para la publicación en PhoneGap.</br></p>
+  
+
+	<center>PhoneGap</center>
+<p><br>
+PhoneGap es un framework para el desarrollo de aplicaciones móviles producido por Nitobi, y comprado posteriormente por Adobe Systems. Principalmente, PhoneGap permite a los programadores desarrollar aplicaciones para dispositivos móviles utilizando herramientas genéricas tales como JavaScript, HTML5 y CSS3.</br></p>
+ 
+ <center>paso1</center>
+
+ <p><br>En la parte superior derecha clic donde dice sitio </br></p>
+		<p><br>Ares un nuevo sitio </br></p>
+		<p><br>Cambias el nombre del sitio</br></p>
+ 
+•	<p> cambian la ruta donde quieres guardar el sitio</p>
+		<p>Abres una carpeta </p>
+		<p>	Y selecciona</p>
+        
+        <center><br>MANUAL DE USUARIO</center></br>
+
+
+      <p>OBJETIVO
+          El objetivo del  manual de usuario es facilitar la tarea del conocimiento uso y aprendizaje de cómo desarrollar una aplicación móvil  para que se nos pueda facilitar más su uso y poderlo entenderlo.
+          Ya que lo podrás usar para que entiendas de que se trata la aplicación y como la puedes usar y sus beneficios de ella.
+          
+          OBJECTIVO DE LA APLICACIÓN
+          Uno de sus beneficios es que los padres de familia se les faciliten la búsqueda de los diferentes maestros  del plantel, ya que en algunos casos el padre o tutor no llega a encontrar al maestro.
+          PASO 1
+          Escanear el código a tu móvil para descargar la aplicación 
+          PASO 2
+          Iniciar la instalación de la aplicación  
+          PASO 3
+          Abrir la aplicación  y empezar 
+          PASO 4
+          En la primera página encontraras unos botones donde se encuentran las distintas carreras con las que el plantel cuenta.
+          
+          PASO 5
+          Clic en la especialidad deseada
+          PASO 6
+          Te introduce a la misma página pero con el horario de los profesores en la hora en la cual puedes acudir a aclarar tus dudas 
+          PASO 7
+          En esa misma página encontraras un botón donde podrás dar clic  y te regresara al inicio.
+          PASO 8
+          Harás lo mismo con la especialidad que gustes y si no encuentras lo que buscas puedes acceder a  los horarios de los demás. </p>
+      <center>
+        Github
+      </center>
+      <p><br>
+        It is a collaborative software development platform for hosting projects used by the Git version control system. The code is stored for free. Although the code can also be done privately by creating an account.
+        Github is an important piece when it comes to publishing your application because it sends you directly to the code generator page that you need for publication in PhoneGap.
+        
+        PhoneGap
+        PhoneGap is a framework for the development of mobile applications produced by Nitobi, and later purchased by Adobe Systems. Mainly, PhoneGap allows developers to develop applications for mobile devices using generic tools such as JavaScript, HTML5 and CSS3.</p>
+      </br>
+      <center>
+        Step 1:
+      </center>
+•
+<p><br>
+  In the upper right click where it says site</p>
+</br>
+•
+<p><br>
+  Create a new site</p>
+</br>
+•
+<p><br>
+  change site name</p>
+</br>
+•
+<p>Check the path where you want to save the site</p>
+•
+<p><br>
+  You open a folder</p>
+</br>
+•
+<p><br>
+  And select</p>
+<p>USER MANUAL
+  
+  
+  OBJECTIVE
+  The purpose of the user manual is to facilitate the task of knowledge use and learning how to develop a mobile application so that we can facilitate its use and be able to understand it.
+  Since you can use it so you understand what the application is about and how you can use it and its benefits from it.
+  
+  PURPOSE OF THE APPLICATION
+  One of its benefits is that parents are facilitated the search of the different teachers of the school, since in some cases the parent or guardian does not find the teacher.
+  
+  STEP 1
+  Scan the code to your mobile to download the application
+  
+  STEP 2
+  Start installing the application
+  
+  STEP 3
+  Open the application and start
+  
+  STEP 4 On the first page you will find some buttons where the different races with which the campus counts. 
+  STEP 5 Click on the desired specialty 
+  STEP 6 It introduces you to the same page but with the time of the teachers in the hour in which you can go to clarify your doubts
+  STEP 7 on that same page you will find a button where you can click and return to the beginning.
+  STEP 8 you will do the same with the specialty you like and if you do not find what you are looking for you can access the schedules of others.</p>
+<li><a href="#page">REGRESAR</a>
+</div>
+	<div data-role="footer">
+		<h4>C.B.T.i.s.No.86</h4>
+	</div>
+</div>
+
+
+</body>
+</html>
